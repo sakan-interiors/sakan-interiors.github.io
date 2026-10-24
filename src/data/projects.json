@@ -1,0 +1,142 @@
+[
+ {
+  "slug": "01",
+  "title": "Project 01",
+  "place": "",
+  "type": "Residential",
+  "year": "",
+  "surface": "",
+  "scope": "",
+  "text": "",
+  "cover": "h04",
+  "alt_cover": "h01",
+  "images": [
+   "h04",
+   "h01",
+   "h02",
+   "h05",
+   "h06",
+   "h07",
+   "h08",
+   "h12"
+  ],
+  "details": [
+   "h06",
+   "h07",
+   "h08",
+   "h12"
+  ]
+ },
+ {
+  "slug": "02",
+  "title": "Project 02",
+  "place": "",
+  "type": "Residential",
+  "year": "",
+  "surface": "",
+  "scope": "",
+  "text": "",
+  "cover": "h14",
+  "alt_cover": "h09",
+  "images": [
+   "h14",
+   "h09",
+   "h10",
+   "h11",
+   "h13",
+   "h15",
+   "h16",
+   "h18",
+   "h20",
+   "h21",
+   "h22",
+   "h25"
+  ],
+  "details": [
+   "h20",
+   "h21",
+   "h22",
+   "h25"
+  ]
+ },
+ {
+  "slug": "03",
+  "title": "Project 03",
+  "place": "",
+  "type": "Residential",
+  "year": "",
+  "surface": "",
+  "scope": "",
+  "text": "",
+  "cover": "h29",
+  "alt_cover": "h26",
+  "images": [
+   "h29",
+   "h26",
+   "h27",
+   "h28",
+   "h30",
+   "h31",
+   "h32",
+   "h33",
+   "h34",
+   "h35",
+   "h36",
+   "h37",
+   "h38",
+   "h42"
+  ],
+  "details": [
+   "h36",
+   "h37",
+   "h38",
+   "h42"
+  ]
+ },
+ {
+  "slug": "04",
+  "title": "Project 04",
+  "place": "",
+  "type": "Residential",
+  "year": "",
+  "surface": "",
+  "scope": "",
+  "text": "",
+  "cover": "h41",
+  "alt_cover": "h39",
+  "images": [
+   "h41",
+   "h39",
+   "h40",
+   "h43"
+  ],
+  "details": [
+   "h39",
+   "h40",
+   "h43"
+  ]
+ },
+ {
+  "slug": "05",
+  "title": "Project 05",
+  "place": "",
+  "type": "Residential",
+  "year": "",
+  "surface": "",
+  "scope": "",
+  "text": "",
+  "cover": "h24",
+  "alt_cover": "h03",
+  "images": [
+   "h24",
+   "h03",
+   "h19",
+   "h23"
+  ],
+  "details": [
+   "h03",
+   "h19",
+   "h23"
+  ]
+ }
+]
