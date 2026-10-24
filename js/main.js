@@ -30,7 +30,7 @@
                   '.ccard > *', '.p-grid .shot', '.step__head',
                   '.bhero__name', '.bhero__sub', '.bhero__tag', '.swatches li', '.bhero__photo', '.story > *', '.sec-title', '.step__text', '.step__photo',
                   '.why__item', '.philosophy > *', '.places__list li', '.footer__mark',
-                  '.hello__top > *', '.hello__more > *', '.works__head', '.work', '.belief__text > *', '.invite__photo',
+                  '.hello__top > *', '.hello__more > *', '.works__head', '.work', '.belief__text > *',
                   '.pquote > *'];
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('is-in'); io.unobserve(en.target); } });
