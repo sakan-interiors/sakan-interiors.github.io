@@ -686,6 +686,20 @@ def spa_index(pages):
     return async_images(spa_links(doc))
 
 
+NOT_FOUND = f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(SITE["full_name"])}</title>
+<meta http-equiv="refresh" content="0; url=/">
+<style>body{{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#E4D9CB;color:#513B2A;font-family:Georgia,serif;text-align:center}}a{{color:#513B2A}}</style>
+</head>
+<body><p>{e(SITE["full_name"])}<br><a href="/">Open the website</a></p><script>location.replace('/');</script></body>
+</html>
+'''
+
+
 TONE_HEX = {'olive': '#554D35', 'brown': '#513B2A', 'cream': '#D5C5B1'}
 
 
@@ -752,6 +766,10 @@ def main():
         for fname, (title, page, content, cls) in pages.items():
             with open(os.path.join(d, fname), 'w') as f:
                 f.write(async_images(full(title, desc, page, content, cls)))
+        # GitHub Pages: serve the files as they are, and send any mistyped address to the front page
+        open(os.path.join(d, '.nojekyll'), 'w').close()
+        with open(os.path.join(d, '404.html'), 'w') as f:
+            f.write(NOT_FOUND)
     print('built', len(pages), 'pages into dist/, and one single-page preview into artifact/')
 
 
